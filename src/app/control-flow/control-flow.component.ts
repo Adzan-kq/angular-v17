@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './control-flow.component.scss',
 })
 export class ControlFlowComponent {
-  isLoggedIn = true;
+  value = true;
 }
