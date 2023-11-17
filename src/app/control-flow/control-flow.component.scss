@@ -1,0 +1,19 @@
+.name {
+  margin-top: 12px;
+
+  &__input {
+    label {
+      margin-right: 15px;
+    }
+
+    &__action {
+      padding: 5px 12px;
+      margin-left: 12px;
+      cursor: pointer;
+      background-color: green;
+      border: green;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}

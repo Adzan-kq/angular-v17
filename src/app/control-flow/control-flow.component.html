@@ -3,3 +3,26 @@
 } @else {
 <p>control flow it's false</p>
 }
+
+<div class="name">
+  <div class="name__input">
+    <label for="nameInput">Name : </label>
+    <input
+      id="nameInput"
+      name="nameInput"
+      type="text"
+      [(ngModel)]="queryname"
+      placeholder="Enter your name"
+    />
+
+    <button class="name__input__action" (click)="saveName()">
+      Save your name
+    </button>
+  </div>
+
+  <div class="name__list">
+    @for (name of listName; track name) {
+    <p>{{ name }}</p>
+    }
+  </div>
+</div>
